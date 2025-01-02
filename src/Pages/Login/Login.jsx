@@ -190,7 +190,7 @@ export default function Login() {
               </Link>
             </p>
             <a
-              href="/forgetpassword"
+              href="./forgetpassword"
               className="text-primary-100 hover:underline text-sm mt-2 block cursor-pointer"
             >
               Forget your password?

@@ -23,7 +23,7 @@ export default function Orders() {
       };
 
       let { data } = await axios.request(options);
-      console.log(data);
+      // console.log(data);
       setOrders(data);
     } catch (error) {
       console.log(error);
